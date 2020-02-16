@@ -1161,5 +1161,5 @@ Set_config_connect_verbose_info(){
 
 check_sys
 [[ ${release} != "debian" ]] && [[ ${release} != "ubuntu" ]] && [[ ${release} != "centos" ]] && echo -e "${Error} 本脚本不支持当前系统 ${release} !" && exit 1
-echo -e "  ShadowsocksR 一键管理脚本 ${Red_font_prefix}[v${sh_ver}]${Font_color_suffix}
+
 Install_SSR
